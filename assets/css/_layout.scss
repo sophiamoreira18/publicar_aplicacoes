@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+.secao {
+  min-height: 100vh; // ViewPort Height // Altura máxima da área de vibilidade
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  &.inicio {
+    background-color: $cor-secundaria;
+    background-repeat: no-repeat no-repeat;
+    
+    background-size: 900px 700px;
+    
+  
+    text-align: center;
+    a {
+    
+      color: $cor-quarta;
+    }
+  }
+  &.sobre {
+    background-color: $cor-primaria;
+    background-repeat: no-repeat no-repeat;
+    text-align: center;
+   
+  }
+  &.atividades {
+    background-color: $cor-secundaria;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: $cor-quarta;
+    }
+  }
+  &.contato {
+    background-color: $cor-primaria;
+    background-repeat: no-repeat no-repeat;
+    text-align: center;
+   
+  }
+}
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(255,255,255, 0.8);
+  background-position: center;
+  a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      color: $cor-secundaria;
+    }
+  }
+}
+
+.esquerda {
+  text-align: left;
+}
+.center{
+  text-align: center;
+}
+
+.direita {
+  float: right;
+}
+
+.centro{
+  float: center;
+}
+
+body{
+  margin: 0;
+}
+
+.main-login{
+  width: 100vw;
+  height: 100vw;
+}
+
+
+    
+    
+

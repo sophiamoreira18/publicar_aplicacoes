@@ -1,0 +1,30 @@
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+header, main, aside {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+aside {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 3px solid #333;
+}
